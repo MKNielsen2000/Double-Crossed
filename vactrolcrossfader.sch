@@ -5910,10 +5910,10 @@ Footprint unproven</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="IN1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="IN2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="OUT" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="CV_IN" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="A_IN1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="A_IN2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="A_OUT" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="CV_IN_A" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="LDR1" library="MusicThingModular" deviceset="VACTROL_4PIN" device=""/>
 <part name="LDR2" library="MusicThingModular" deviceset="VACTROL_4PIN" device=""/>
 <part name="U1" library="MusicThingModular" deviceset="TL072" device="_SMD"/>
@@ -5958,10 +5958,10 @@ Footprint unproven</description>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="VR4" library="MusicThingModular" deviceset="BOURNS_3362P_TRIMMER" device="P" value="20k"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-DPDT" device="PTH1"/>
-<part name="IN3" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="IN4" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="OUT1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="CV_IN1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="B_IN1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="B_IN2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="B_OUT" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="CV_IN_B" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="LDR3" library="MusicThingModular" deviceset="VACTROL_4PIN" device=""/>
 <part name="LDR4" library="MusicThingModular" deviceset="VACTROL_4PIN" device=""/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
@@ -6006,18 +6006,19 @@ Footprint unproven</description>
 <plain>
 <text x="292.1" y="12.7" size="1.6764" layer="91">Made by Gilberte. 
 Original circuits by 
-Mark Verbos and Don Buchla</text>
-<text x="60.96" y="226.06" size="6.4516" layer="91">Crossfader #1</text>
-<text x="60.96" y="116.84" size="6.4516" layer="91">Crossfader #2</text>
+Mark Verbos and Don Buchla.
+Personal use only</text>
+<text x="60.96" y="226.06" size="6.4516" layer="91">Crossfader A</text>
+<text x="60.96" y="116.84" size="6.4516" layer="91">Crossfader B</text>
 <text x="121.92" y="109.22" size="1.778" layer="91">Switch between dc / ac coupling</text>
 <text x="121.92" y="218.44" size="1.778" layer="91">Switch between dc / ac coupling</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="IN1" gate="G$1" x="160.02" y="208.28"/>
-<instance part="IN2" gate="G$1" x="149.86" y="160.02"/>
-<instance part="OUT" gate="G$1" x="215.9" y="172.72"/>
-<instance part="CV_IN" gate="G$1" x="43.18" y="195.58"/>
+<instance part="A_IN1" gate="G$1" x="160.02" y="208.28"/>
+<instance part="A_IN2" gate="G$1" x="149.86" y="160.02"/>
+<instance part="A_OUT" gate="G$1" x="215.9" y="172.72"/>
+<instance part="CV_IN_A" gate="G$1" x="43.18" y="195.58"/>
 <instance part="LDR1" gate="G$1" x="93.98" y="208.28"/>
 <instance part="LDR2" gate="G$1" x="93.98" y="160.02"/>
 <instance part="U1" gate="A" x="177.8" y="175.26"/>
@@ -6068,10 +6069,10 @@ Mark Verbos and Don Buchla</text>
 <instance part="D4" gate="G$1" x="73.66" y="210.82" rot="R90"/>
 <instance part="VR4" gate="G$1" x="20.32" y="165.1" rot="R90"/>
 <instance part="S1" gate="G$1" x="134.62" y="187.96" rot="R180"/>
-<instance part="IN3" gate="G$1" x="160.02" y="101.6"/>
-<instance part="IN4" gate="G$1" x="149.86" y="53.34"/>
-<instance part="OUT1" gate="G$1" x="215.9" y="66.04"/>
-<instance part="CV_IN1" gate="G$1" x="43.18" y="88.9"/>
+<instance part="B_IN1" gate="G$1" x="160.02" y="101.6"/>
+<instance part="B_IN2" gate="G$1" x="149.86" y="53.34"/>
+<instance part="B_OUT" gate="G$1" x="215.9" y="66.04"/>
+<instance part="CV_IN_B" gate="G$1" x="43.18" y="88.9"/>
 <instance part="LDR3" gate="G$1" x="93.98" y="101.6"/>
 <instance part="LDR4" gate="G$1" x="93.98" y="53.34"/>
 <instance part="R13" gate="G$1" x="162.56" y="71.12"/>
@@ -6172,15 +6173,15 @@ Mark Verbos and Don Buchla</text>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="IN1" gate="G$1" pin="SLEEVE"/>
+<pinref part="A_IN1" gate="G$1" pin="SLEEVE"/>
 <wire x1="149.86" y1="205.74" x2="154.94" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="IN1" gate="G$1" pin="SWITCH"/>
+<pinref part="A_IN1" gate="G$1" pin="SWITCH"/>
 <wire x1="154.94" y1="208.28" x2="154.94" y2="205.74" width="0.1524" layer="91"/>
 <junction x="154.94" y="205.74"/>
 </segment>
 <segment>
-<pinref part="IN2" gate="G$1" pin="SWITCH"/>
-<pinref part="IN2" gate="G$1" pin="SLEEVE"/>
+<pinref part="A_IN2" gate="G$1" pin="SWITCH"/>
+<pinref part="A_IN2" gate="G$1" pin="SLEEVE"/>
 <wire x1="144.78" y1="160.02" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="144.78" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
@@ -6188,9 +6189,9 @@ Mark Verbos and Don Buchla</text>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="OUT" gate="G$1" pin="SLEEVE"/>
+<pinref part="A_OUT" gate="G$1" pin="SLEEVE"/>
 <wire x1="210.82" y1="165.1" x2="210.82" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="OUT" gate="G$1" pin="SWITCH"/>
+<pinref part="A_OUT" gate="G$1" pin="SWITCH"/>
 <wire x1="210.82" y1="172.72" x2="210.82" y2="170.18" width="0.1524" layer="91"/>
 <junction x="210.82" y="170.18"/>
 </segment>
@@ -6207,9 +6208,9 @@ Mark Verbos and Don Buchla</text>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="CV_IN" gate="G$1" pin="SLEEVE"/>
+<pinref part="CV_IN_A" gate="G$1" pin="SLEEVE"/>
 <wire x1="38.1" y1="187.96" x2="38.1" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="CV_IN" gate="G$1" pin="SWITCH"/>
+<pinref part="CV_IN_A" gate="G$1" pin="SWITCH"/>
 <wire x1="38.1" y1="195.58" x2="38.1" y2="193.04" width="0.1524" layer="91"/>
 <junction x="38.1" y="193.04"/>
 </segment>
@@ -6225,15 +6226,15 @@ Mark Verbos and Don Buchla</text>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="IN3" gate="G$1" pin="SLEEVE"/>
+<pinref part="B_IN1" gate="G$1" pin="SLEEVE"/>
 <wire x1="149.86" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IN3" gate="G$1" pin="SWITCH"/>
+<pinref part="B_IN1" gate="G$1" pin="SWITCH"/>
 <wire x1="154.94" y1="101.6" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <junction x="154.94" y="99.06"/>
 </segment>
 <segment>
-<pinref part="IN4" gate="G$1" pin="SWITCH"/>
-<pinref part="IN4" gate="G$1" pin="SLEEVE"/>
+<pinref part="B_IN2" gate="G$1" pin="SWITCH"/>
+<pinref part="B_IN2" gate="G$1" pin="SLEEVE"/>
 <wire x1="144.78" y1="53.34" x2="144.78" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="144.78" y1="50.8" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
@@ -6241,9 +6242,9 @@ Mark Verbos and Don Buchla</text>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="OUT1" gate="G$1" pin="SLEEVE"/>
+<pinref part="B_OUT" gate="G$1" pin="SLEEVE"/>
 <wire x1="210.82" y1="58.42" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="OUT1" gate="G$1" pin="SWITCH"/>
+<pinref part="B_OUT" gate="G$1" pin="SWITCH"/>
 <wire x1="210.82" y1="66.04" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
 <junction x="210.82" y="63.5"/>
 </segment>
@@ -6260,11 +6261,8 @@ Mark Verbos and Don Buchla</text>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="CV_IN1" gate="G$1" pin="SLEEVE"/>
+<pinref part="CV_IN_B" gate="G$1" pin="SLEEVE"/>
 <wire x1="38.1" y1="81.28" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="CV_IN1" gate="G$1" pin="SWITCH"/>
-<wire x1="38.1" y1="88.9" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
-<junction x="38.1" y="86.36"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -6401,7 +6399,7 @@ Mark Verbos and Don Buchla</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="OUT" gate="G$1" pin="TIP"/>
+<pinref part="A_OUT" gate="G$1" pin="TIP"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="175.26" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
 </segment>
@@ -6425,9 +6423,14 @@ Mark Verbos and Don Buchla</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="198.12" x2="38.1" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="CV_IN" gate="G$1" pin="TIP"/>
-<wire x1="38.1" y1="198.12" x2="33.02" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="CV_IN_A" gate="G$1" pin="TIP"/>
+<wire x1="38.1" y1="198.12" x2="35.56" y2="198.12" width="0.1524" layer="91"/>
 <junction x="38.1" y="198.12"/>
+<pinref part="CV_IN_B" gate="G$1" pin="SWITCH"/>
+<wire x1="35.56" y1="198.12" x2="33.02" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="88.9" x2="35.56" y2="198.12" width="0.1524" layer="91"/>
+<junction x="35.56" y="198.12"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -6527,7 +6530,7 @@ Mark Verbos and Don Buchla</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="IN1" gate="G$1" pin="TIP"/>
+<pinref part="A_IN1" gate="G$1" pin="TIP"/>
 <wire x1="154.94" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="210.82" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="5"/>
@@ -6536,7 +6539,7 @@ Mark Verbos and Don Buchla</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="IN2" gate="G$1" pin="TIP"/>
+<pinref part="A_IN2" gate="G$1" pin="TIP"/>
 <wire x1="144.78" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="162.56" x2="139.7" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -6608,7 +6611,7 @@ Mark Verbos and Don Buchla</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="OUT1" gate="G$1" pin="TIP"/>
+<pinref part="B_OUT" gate="G$1" pin="TIP"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="68.58" x2="205.74" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -6632,7 +6635,7 @@ Mark Verbos and Don Buchla</text>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="CV_IN1" gate="G$1" pin="TIP"/>
+<pinref part="CV_IN_B" gate="G$1" pin="TIP"/>
 <wire x1="38.1" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
 <junction x="38.1" y="91.44"/>
 </segment>
@@ -6734,7 +6737,7 @@ Mark Verbos and Don Buchla</text>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="IN3" gate="G$1" pin="TIP"/>
+<pinref part="B_IN1" gate="G$1" pin="TIP"/>
 <wire x1="154.94" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="104.14" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="5"/>
@@ -6743,7 +6746,7 @@ Mark Verbos and Don Buchla</text>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="IN4" gate="G$1" pin="TIP"/>
+<pinref part="B_IN2" gate="G$1" pin="TIP"/>
 <wire x1="144.78" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="55.88" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="2"/>
