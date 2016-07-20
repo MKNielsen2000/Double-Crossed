@@ -6,6 +6,4 @@ A switch lets you change between dc and ac coupling for maximum versatility.
 Try crossfading two CV's on one of the crossfaders and then feeding that into the second crossfaders cv input = facemelt. 
 
 ###Status
-* Breadboarding testing done 
-* Schematic done
-* Boards laid out, need testing.
+* Prototypes sent to fab
